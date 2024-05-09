@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  background-color: #000;
+  color: aqua;
+  font-size: 36px;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+
+
+
+/* 상품목록 리스트 */
+.list__itemview {
+  display:flex;
+  flex-direction: column;
+}
+.list__itemview li {
+  list-style: none;
+  border-top: 1px solid #ddd;
+  display:flex;
+
+}
+.list__itemview li:first-child {
+  border-top: none;
+}
+.list__itemview li img {
+  max-width:150px;
+
+}
+.list__itemview li img + .txt--textwrap {
+  margin-left:20px
+}
+.list__itemview li .txt--textwrap {
+  display: flex;
+  flex-direction: column;
+}
+.list__itemview li .txt--textwrap p {
+  margin:0
+}
+.list__itemview li .txt--textwrap p:nth-child(2){
+  margin-top: 15px;
+}
+.list__itemview li {
+  padding: 15px 0 15px 15px;
+  align-items: center;
+}
