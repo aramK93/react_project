@@ -45,6 +45,25 @@
   font-weight: 600;
 }
 
+/* 헤더 */
+header {
+  width:100%;
+  position: fixed;
+  background-color: #fff;
+  top:0;
+  box-sizing: border-box;
+}
+header .inner {
+  max-width: 1650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {}
+header .logo {}
+header nav {}
+
+header a {color: #333;text-decoration: none;}
 
 
 
